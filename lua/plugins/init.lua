@@ -60,6 +60,11 @@ local plugins = {
     "williamboman/mason.nvim",
     opts = {
       ensure_installed = {
+        -- lua
+        "lua-language-server",
+        "stylua",
+  
+        -- python
         "black",
         "debugpy",
         "mypy",
