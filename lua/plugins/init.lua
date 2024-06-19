@@ -63,7 +63,20 @@ local plugins = {
         -- lua
         "lua-language-server",
         "stylua",
-  
+
+        -- bash
+        "bash-language-server",
+
+        -- docker
+        "docker-compose-language-service",
+        "dockerfile-language-server",
+
+        -- jq
+        "jq-lsp",
+
+        -- json
+        "json-lsp",
+
         -- python
         "black",
         "debugpy",
